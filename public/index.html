@@ -40,11 +40,21 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <div>
-      <h2 style="margin:20px;">Installing The Framework</h2>
+      <h2 style="margin:20px;">Creating The Website</h2>
       <p class="box">The framework that I chose to create the page was React. First I installed the appropriate version of nodejs for my computer from "www.nodejs.org".
         Next I created a folder in my drive to store my react projects. Then I opened powershell and changed my directory to the folder I created and executed the command "npx create-react-app lab10c"
         to install react and create my project. After that I used Visual Studio Code to start creating my website. Once I finished I entered my project's directory and ran the 
-        "npm start" command.
+        "npm start" command to compile and view my website.
+      </p>
+      <h2 style="margin:20px;">Hosting The Website</h2>
+      <p class="box">I chose to host my website using github. To do this I first logged in to my account and created a repository. Then I converted my react project to a git repository
+        using the commands "git init", "git add ." and "git commit -m 'initial commit'". After that I added it as the remote repositoy and pushed the code to it using "git remote add origin (link to repository)" and 
+        "git push origin master". Next I installed the "gh-pages" package using "npm install --save gh-pages". Then I modified the package.json file by adding the "homepage", "predeploy" and "deploy" statements.
+        Finally I deployed the website using "npm run deploy".
+      </p>
+      <h2 style="margin:20px;">Difficulties</h2>
+      <p class="box">I had difficulties with deciding what to host my page with and finding out how to do it. I solved these problems by searching google for the best ways to host a website
+        and how to host websites using github.
       </p>
     </div>
     <!--
